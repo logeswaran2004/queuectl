@@ -1,8 +1,6 @@
 # QueueCTL – CLI-Based Background Job Queue System
 QueueCTL is a reliable and extensible command-line job queue system built in Python, allowing the users to manage background tasks efficiently, supporting multiple concurrent workers, automatic retries with exponential backoff for transient failures, and a Dead Letter Queue (DLQ) to safely store jobs that cannot be completed. With a simple CLI interface and persistent storage, QueueCTL makes it easy to enqueue, monitor, and manage jobs while ensuring robustness and traceability in your workflows.
 
-----
-
 ### 1. Setup Instructions
 
 Follow the below steps to test QueueCTL locally
@@ -48,8 +46,6 @@ QueueCTL/
 └── README.md
 └── setup.py
 ```
-
-----
 
 ### 2. Usage Examples — CLI Commands with Example Outputs
 
@@ -125,8 +121,6 @@ $ queuectl config set max_retries 5
 [Config] Set max_retries = 5
 ```
 
----
-
 ### 3. Architecture Overview
 
 #### Components Overview
@@ -142,7 +136,7 @@ $ queuectl config set max_retries 5
 
 #### Job Lifecycle
 
-### INSERT IMAGE HERE
+<img width="667" height="770" alt="Architecture - QueueCTL" src="https://github.com/user-attachments/assets/f8009920-12b4-4a9d-b2e6-efae4a0b13e0" />
 
 #### Data Persistence
 
@@ -169,8 +163,6 @@ $ queuectl config set max_retries 5
 | Security     | Commands are trusted; no sandboxing    |
 | Retry Policy | DLQ retries reset attempts             |
 
----
-
 ### 5. Testing Section and Demo
 
 #### Automated Test
@@ -193,7 +185,6 @@ queuectl list
 queuectl dlq list
 ```
 
-### Demo
+#### Demo
 
-### INSERT VIDEO HERE
-
+https://github.com/user-attachments/assets/d46c7f0a-6a10-4da3-81d8-b8475b6bb1e3
