@@ -1,0 +1,15 @@
+=== Run at 2025-11-08T17:32:45.366938+00:00 ===
+Command: bash -c 'exit 1'
+Return code: 1
+Attempts: 1
+
+=== Run at 2025-11-08T17:32:47.654809+00:00 ===
+Command: bash -c 'exit 1'
+Return code: 1
+Attempts: 2
+
+=== Run at 2025-11-08T17:32:53.682261+00:00 ===
+Command: bash -c 'exit 1'
+Return code: 1
+Attempts: 3
+

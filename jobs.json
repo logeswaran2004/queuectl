@@ -1,0 +1,23 @@
+[
+  {
+    "id": "job_ok",
+    "command": "echo Hello World",
+    "state": "completed",
+    "attempts": 1,
+    "max_retries": 3,
+    "created_at": "2025-11-08T17:32:44.292897+00:00",
+    "updated_at": "2025-11-08T17:32:45.081403+00:00",
+    "run_after": null
+  },
+  {
+    "id": "job_fail",
+    "command": "bash -c 'exit 1'",
+    "state": "pending",
+    "attempts": 0,
+    "max_retries": 3,
+    "created_at": "2025-11-08T17:32:44.506633+00:00",
+    "updated_at": "2025-11-08T17:33:03.021202+00:00",
+    "run_after": null,
+    "moved_to_dlq_at": "2025-11-08T17:32:53.690528+00:00"
+  }
+]
